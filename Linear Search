@@ -4,8 +4,10 @@
   
 def search(arr, n, x): 
   
-     
-    return null; 
+    for i in range (0, n):             #added code in the function where it was pending
+        if (arr[i] == x): 
+            return i; 
+    return -1; 
   
 # Driver Code 
 arr = [ 2, 3, 4, 10, 40 ]; 
